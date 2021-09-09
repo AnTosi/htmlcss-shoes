@@ -42,10 +42,22 @@ body {
 
 .numeretti {
     position: absolute;
-    right: 20px;
     top: 40px;
+    right: 10px;
 }
 
 .sottotesto.giallo {
     color: yellow;
+}
+
+div.numeretti>span {
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
 }
