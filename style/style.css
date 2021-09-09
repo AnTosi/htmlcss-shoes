@@ -17,27 +17,26 @@ body {
     width: 100vw;
     text-align: center;
     margin: auto;
+    position: relative;
 }
 
 .spazio img {
-    margin: auto;
-    display: block;
     width: 45vw;
+    vertical-align: middle;
 }
+
 .spazio.rosso {
     background-color: red;
 }
 
 .sottotesto {
-    margin-top: 9vh;
+    text-align: center;
+    left: 50vw;
     margin: auto;
     font-variant: small-caps;
     font-size: 3rem;
     font-weight: bold;
     width: 45vw;
-    padding: 10px;
-
-
 }
 
 .numeretti {
@@ -60,4 +59,8 @@ div.numeretti>span {
     height: 50px;
     line-height: 50px;
     text-align: center;
+}
+
+.spazio.verde {
+    background-color: green;
 }
