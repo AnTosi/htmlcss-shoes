@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.spazio {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    margin: auto;
+}
+
+.spazio img {
+    margin: auto;
+    display: block;
+    width: 45vw;
+}
+.spazio.rosso {
+    background-color: red;
+}
+
+.sottotesto {
+    margin-top: 9vh;
+    margin: auto;
+    font-variant: small-caps;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 45vw;
+    padding: 10px;
+
+
+}
+
+.numeretti {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+.sottotesto.giallo {
+    color: yellow;
+}
