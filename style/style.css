@@ -66,6 +66,10 @@ body {
     z-index: 2;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 div.numeretti>a {
     text-decoration: none;
 }
